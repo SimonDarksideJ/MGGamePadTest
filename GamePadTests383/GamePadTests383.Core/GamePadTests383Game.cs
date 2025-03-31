@@ -117,13 +117,13 @@ public class GamePadTests383Game : Game
         gamePadStringsToDraw[10] = $"DPadD Button: {inputState.CurrentGamePadStates[playerIndex].IsButtonDown(Buttons.DPadDown)}";
 
         gamePadStringsToDraw[11] = $"RBumper Button: {inputState.CurrentGamePadStates[playerIndex].IsButtonDown(Buttons.RightShoulder)}";
-        gamePadStringsToDraw[12] = $"RThumbstick Button: {inputState.CurrentGamePadStates[playerIndex].IsButtonDown(Buttons.RightThumbstickDown)}";
+        gamePadStringsToDraw[12] = $"RThumbstick Button: {inputState.CurrentGamePadStates[playerIndex].IsButtonDown(Buttons.RightStick)}";
         gamePadStringsToDraw[13] = $"RThumbstick State: {inputState.CurrentGamePadStates[playerIndex].ThumbSticks.Right}";
         gamePadStringsToDraw[14] = $"RTrigger Button: {inputState.CurrentGamePadStates[playerIndex].IsButtonDown(Buttons.RightTrigger)}";
         gamePadStringsToDraw[15] = $"RTrigger State: {inputState.CurrentGamePadStates[playerIndex].Triggers.Right}";
 
         gamePadStringsToDraw[16] = $"LBumper Button: {inputState.CurrentGamePadStates[playerIndex].IsButtonDown(Buttons.LeftShoulder)}";
-        gamePadStringsToDraw[17] = $"LThumbstick Button: {inputState.CurrentGamePadStates[playerIndex].IsButtonDown(Buttons.LeftThumbstickDown)}";
+        gamePadStringsToDraw[17] = $"LThumbstick Button: {inputState.CurrentGamePadStates[playerIndex].IsButtonDown(Buttons.LeftStick)}";
         gamePadStringsToDraw[18] = $"LThumbstick State: {inputState.CurrentGamePadStates[playerIndex].ThumbSticks.Left}";
         gamePadStringsToDraw[19] = $"LTrigger Button: {inputState.CurrentGamePadStates[playerIndex].IsButtonDown(Buttons.LeftTrigger)}";
         gamePadStringsToDraw[20] = $"LTrigger State: {inputState.CurrentGamePadStates[playerIndex].Triggers.Left}";
